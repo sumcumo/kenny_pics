@@ -1,6 +1,7 @@
 # KennyPics
 
-TODO: Write a gem description
+This gem is intended to search for Kenny Mc Cormick pictures
+in the world wide web. It uses the Google Search gem.
 
 ## Installation
 
