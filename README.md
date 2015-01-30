@@ -1,7 +1,7 @@
 # KennyPics
 
 This gem is intended to search for Kenny Mc Cormick pictures
-in the world wide web. It uses the Google Search gem.
+in the world wide web. It uses the [Google Search gem](https://github.com/tj/google-search) written by TJ Holowaychuk.
 
 ## Installation
 
@@ -21,7 +21,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can use the gem from the command line
+
+    kenny_pics
+
+Or in a Rails applications view
+
+    <h1>Hi Kenny</h1>
+
+    <% kenny_pics_search.each do |img| %>
+      <img src="<%= img %>">
+    <% end %>
 
 ## Contributing
 
